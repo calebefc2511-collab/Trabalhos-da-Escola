@@ -23,7 +23,7 @@
         header{
             position: sticky;
             background-color: var(--destaque);
-            padding: 20px;
+            padding: 30px;
             display: flex;
             flex-flow: column nowrap;
             border-radius: 0 0 15px 15px;
@@ -34,9 +34,46 @@
             color: var(--texto-inverso);
             font-size: 35px;
             font-weight: bold;
+			margin-bottom: 15px;
         }
 
         p{
-            color: var(--texto-inverso);
+            color: var(--texto);
             font-size: 18px;
         }
+		
+		main{
+			background-color: var(--fundo-principal);
+			margin-top: 15px;
+		}
+		
+		section.lateral{
+			float:left;
+			width:10vw;
+			display: flex;
+			flex-flow: column nowrap;
+			gap: 10px;
+			margin-right: 20px;
+		}
+		
+		div.bloco, div.bloco-lateral{
+			background-color: var(--fundo-card);
+			display: flex;
+			border-radius: 10px;
+			padding: 25px;
+		}
+		
+		div.bloco-lateral{
+				flex-flow: column nowrap;
+		}
+		
+		div.bloco{
+			margin: 15px;
+		}
+		
+		section.principal{
+			gap: 15px;
+			display: column;
+		}
+		
+		
