@@ -5,7 +5,7 @@
         }
 
         :root{
-            --fundo-principal: #f5f5f5;
+            --fundo-principal: #d3d3d3;
             --texto: #222222;
             --texto-inverso: #ffffff;
             --destaque: #0077ff;
@@ -26,7 +26,6 @@
             padding: 30px;
             display: flex;
             flex-flow: column nowrap;
-            border-radius: 0 0 15px 15px;
             gap: 10px;
         }
 
@@ -54,6 +53,7 @@
 		ul,li,a{
 			text-decoration: none;
 			list-style: none;
+			color: var(--color);
 		}
 		
 		ul{
@@ -63,12 +63,11 @@
 		}
 		
 		li{
-			margin-left: 5px;
+			margin-left: 10px;
 		}
 		
 		main{
 			background-color: var(--fundo-principal);
-			margin-top: 15px;
 		}
 		
 		section.lateral{
@@ -89,23 +88,55 @@
 		
 		div.bloco-lateral{
 			flex-flow: column nowrap;
+			margin: 10px;
 		}
 		
 		div.bloco{
-			margin: 15px;
+			margin:15px;
 			border: 3px solid var(--destaque);
 			cursor: pointer;
 			transition: all 0.3s ease-in-out;
 		}
 		
 		div.bloco:hover{
-			padding: 40px;
+			padding: 35px;
 			border: 4px solid var(--destaque-inverso);
 		}
 		
 		section.principal{
-			gap: 15px;
+			gap: 10px;
 			display: column;
 		}
 		
-		
+		footer{
+			background-color: var(--destaque);
+			padding: 15px;
+		}
+
+		nav.bloco-cima{
+			background-color: var(--destaque-inverso);
+			width: 100%;
+			margin-top: 0%;
+			display: flex;
+			justify-content: center;
+			padding: 10px;
+			margin-bottom: 20px;
+		}
+
+		section{
+			margin-bottom: 20px;
+		}
+
+		div.linha{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 15px;
+			border-left: 2px solid var(--texto);
+			margin-left: 21px;
+		}
+
+		section.cursos{	
+
+		}
+
